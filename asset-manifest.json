@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.60c7cda1.css",
-    "main.js": "/static/js/main.666b3b19.js",
+    "main.css": "/static/css/main.b78fd74c.css",
+    "main.js": "/static/js/main.d75f3759.js",
     "static/media/photo.png": "/static/media/photo.478bacdf21d6f92b871d.png",
     "static/media/Mobile-preview.png": "/static/media/Mobile-preview.7aa20ffafb3db5c44cbb.png",
     "static/media/pokedex.jpg": "/static/media/pokedex.fe836968df85fae565f1.jpg",
@@ -16,11 +16,11 @@
     "index.html": "/index.html",
     "static/media/blob2.svg": "/static/media/blob2.43c395bdef7b345c55ff.svg",
     "static/media/blob.svg": "/static/media/blob.2ee1b092a56f20b34a0d.svg",
-    "main.60c7cda1.css.map": "/static/css/main.60c7cda1.css.map",
-    "main.666b3b19.js.map": "/static/js/main.666b3b19.js.map"
+    "main.b78fd74c.css.map": "/static/css/main.b78fd74c.css.map",
+    "main.d75f3759.js.map": "/static/js/main.d75f3759.js.map"
   },
   "entrypoints": [
-    "static/css/main.60c7cda1.css",
-    "static/js/main.666b3b19.js"
+    "static/css/main.b78fd74c.css",
+    "static/js/main.d75f3759.js"
   ]
 }
