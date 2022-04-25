@@ -18,7 +18,7 @@ import './Skills.css'
 export default function Skills () {
   const { ref: myRef, inView: elementVisible } = useInView({
     threshold: 1,
-    rootMargin: "0px 0px -400px 0px"
+    rootMargin: "0px 0px -100px 0px"
   });
   const [turnedCount, setCount] = useState(0);
   const { language } = useContext(AppContext);

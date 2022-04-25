@@ -18,7 +18,7 @@ const Hero = () => {
         <a id='home' />
         <header className="headerTop">
           <nav className={toggled ? 'navbar active' : 'navbar'}>
-            <a href="#home" className="logo">RE</a>
+            <a href="#home" className="logo">REe</a>
 
             <div className="divButtons">
               <button

@@ -5,6 +5,7 @@
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: wrap;
+  overflow: hidden;
   align-items: center;
   height: 100vh;
   text-align: center;
@@ -28,8 +29,7 @@
 }
 
 .learnedSkillsTitle h2 {
-  margin: 15px;
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: #ffffff;
   text-shadow: 0 2px #7f5af0;
 }
