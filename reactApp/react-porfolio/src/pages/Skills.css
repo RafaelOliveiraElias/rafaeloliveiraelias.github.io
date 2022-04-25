@@ -1,0 +1,107 @@
+.skillsSection {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  background-color: #2cb67d;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.0' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.learnedSkills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+}
+
+.learnedSkillsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.learnedSkillsTitle h2 {
+  margin: 15px;
+  font-size: 1.8em;
+  color: #ffffff;
+  text-shadow: 0 2px #7f5af0;
+}
+
+.learnedSkills div {
+  font-size: 0.8em;
+  width: 80px;
+  height: 95px;
+  margin: 3px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+  box-shadow: 0 1px 0 #7f5af097;
+  transition: background-color 0.8s, color 0.8s, box-shadow 0.8s;
+}
+
+.learnedSkills div:hover {
+  background-color: #ffffff8f;
+  color: #000000;
+  box-shadow: 0 0 4px 4px #ffffff47
+}
+
+.learnedSkills div h3 {
+  text-shadow: #000000 0 2px;
+  color: #ffffff;
+}
+
+@media screen and
+(min-width: 600px){
+  .learnedSkillsTitle h2 {
+    font-size: 2.5em;
+  }
+  .learnedSkills {
+    width: 400px;
+  }
+
+  .learnedSkills div {
+    margin: 5px
+  }
+  
+  .skillsSection {
+    box-shadow: inset 0 0 10px 2px #59595997;
+    background-color: #2cb67d;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    height: 0;
+    transition: height 900ms ease-in;
+  }
+
+  .skillsSection.turned {
+    height: 40vh;
+  }
+
+  .learnedSkillsTitle {
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+  }
+  .learnedSkillsTitle.turned {
+    animation: opala 1.5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes opala {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

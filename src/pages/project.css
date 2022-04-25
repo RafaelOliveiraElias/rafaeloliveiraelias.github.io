@@ -1,0 +1,137 @@
+.projectsClass {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  background-color: black;
+  background-image: url('../imgs/blob2.svg') ;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 45%;
+}
+
+.projectsClass h2 {
+  font-size: 5em;
+  color: white;
+  justify-self: start;
+  margin-bottom: 60px;
+}
+
+.sliderClass {
+  border-radius: 15px;
+  width: 80%;
+  padding: 5px;
+  background-image: linear-gradient(
+    90deg,
+    #2cb67d 0%,
+    #7f5af0 35%,
+    #7f5af0 50%,
+    #7f5af0 65%,
+    #2cb67d 100%
+  );
+}
+
+.cards {
+  width: 340px;
+  height: 580px;
+  color: #94a1b2;
+  background-color: #242629;
+  justify-self: center;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardTitle h3 {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 2em;
+  text-shadow: 0 2px #2cb67d, 0 -2px #7f5af0;
+}
+
+.cards .cardImgCont {
+  height: auto;
+  width: 100%;
+  position: relative;
+  border: 6px solid black;
+  border-radius: 15px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.cards .cardImgCont img {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  padding: 3px;
+  letter-spacing: 2px;
+  border-bottom: 10px solid black;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  border-radius: 0 0 15px 15px;
+  margin: 10px;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 170px;
+
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23ffffff' fill-opacity='0.2'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.details .tag {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+
+.cardImgCont .buttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba( 255, 255, 255, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.5px );
+  -webkit-backdrop-filter: blur( 3.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: opacity 0.2s ease-in
+}
+
+.cardImgCont .buttons button {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #7f5af0;
+  color: white;
+}
+
+
+.cardImgCont .buttons.enabled {
+  opacity: 0;
+}
+
+@media screen and
+(min-width: 600px){
+  .sliderClass {
+    width: 50%;
+  }
+}
