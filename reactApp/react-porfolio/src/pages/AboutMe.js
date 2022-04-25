@@ -31,7 +31,7 @@ export default function AboutMe () {
   return(
     <section id='idAbout' className='classAbout'>
       <a id='idAbout'/>
-      <h1 ref={myRef} className={ turnedCount === 1 ? 'title turned' : 'title' }>{language === 'pt' ? 'Sobre mim' : 'About me'}</h1>
+      <h1 ref={myRef} className={ turnedCount === 1 ? 'title turned' : 'title' }>{language === 'pt' ? 'Sobre mim' : 'About me ?'}</h1>
       {useAboutMe(language)}
       <div ref={myImgRef} className={ imgCount === 1 ? 'imgHumansCont turned' : 'imgHumansCont' }>
         <img src={humaans} alt="rafael"/>
