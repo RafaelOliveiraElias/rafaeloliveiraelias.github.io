@@ -4,6 +4,7 @@ import Hero from './pages/Hero';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
+import Contact from './pages/Contact';
 
 
 class App extends React.Component {
@@ -14,6 +15,7 @@ class App extends React.Component {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contact />
       </div>
     );
   }
