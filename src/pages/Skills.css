@@ -56,8 +56,10 @@
 }
 
 .learnedSkills div h3 {
-  text-shadow: #000000 0 2px;
+  text-shadow: #000000 0 1px 3px;
   color: #ffffff;
+  font-family:'Courier New', Courier, monospace;
+
 }
 
 @media screen and
