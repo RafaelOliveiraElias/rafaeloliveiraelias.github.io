@@ -187,10 +187,14 @@ export default class Responsive extends Component {
           </div>
           <div className="cardImgCont" onMouseOver={ () => this.setState({img4: true})} onMouseOut={ () => this.setState({img4: false})}>
             <div className={ !img4 ? 'buttons enabled' : 'buttons' } >
-              <button>
+              <button
+                onClick={()=> window.open("https://github.com/RafaelOliveiraElias/wallet-react-rafael", "_blank")}
+              >
                 <AiOutlineGithub size="60px" />
               </button>
-              <button>
+              <button
+                onClick={()=> window.open("https://wallet-react-rafael.vercel.app/", "_blank")}
+              >
                 <AiOutlineLink size="60px" />
               </button>
             </div>
