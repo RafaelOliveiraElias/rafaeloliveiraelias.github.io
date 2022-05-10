@@ -10,7 +10,7 @@
 .contactsAt {
   background-color: #7f5af0;
   height: 30vh;
-  outline: #7f5af0 4px solid;
+  outline: #7f5af0 5px solid;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -24,11 +24,29 @@
   display: flex;
   width: 310px;
   justify-content: space-around;
+  margin-bottom: 15px;
 }
 
 .contactsAt .extraInfo {
-  width: 800px;
+  width: 50vw;
   display: flex;
   justify-content: space-around;
   margin: 40px;
 }
+
+footer {
+  height: 35vh;
+  background-color: #7f5af0;
+  max-width: 100vw;
+}
+@media screen and
+  (max-width: 600px){
+    .extraInfo {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      align-items: center;
+      justify-content: space-between;
+      height: 300px;
+    }
+  }

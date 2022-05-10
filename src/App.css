@@ -7,3 +7,11 @@
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
 }
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}

@@ -160,10 +160,14 @@ export default class Responsive extends Component {
           <div className="cardImgCont" onMouseOver={ () => this.setState({img3: true})} onMouseOut={ () => this.setState({img3: false})}>
             <div className={ !img3 ? 'buttons enabled' : 'buttons' } >
               <button>
-                <AiOutlineGithub size="60px" />
+                <a href='https://github.com/RafaelOliveiraElias/Online-Store-w-react' target="_blank" rel="noreferrer">
+                  <AiOutlineGithub size="60px" />
+                </a>
               </button>
               <button>
-                <AiOutlineLink size="60px" />
+                  <a href='https://online-store-with-react-ruddy.vercel.app/' target="_blank" rel="noreferrer">
+                    <AiOutlineLink size="60px" />
+                  </a>
               </button>
             </div>
             <img src={reactStore} alt="trivia"/>
