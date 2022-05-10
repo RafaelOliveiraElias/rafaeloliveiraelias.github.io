@@ -36,7 +36,7 @@ const Hero = () => {
               <ul className={ toggled ? 'list active' : 'list'}>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#idAbout">{ language === 'pt' ? 'Sobre' : 'About' }</a></li>
-                <li><a href="#">{ language === 'pt' ? 'Contato' : 'Contact' }</a></li>
+                <li><a href="#contact">{ language === 'pt' ? 'Contato' : 'Contact' }</a></li>
               </ul>
             </div>
             <button
@@ -59,9 +59,9 @@ const Hero = () => {
             </div>
             <nav className='secNav'>
               <ul>
-                <li><BsAt size="40px"/></li>
-                <li><BsGithub size="30px"/></li>
-                <li><BsLinkedin size="30px" /></li>
+              <a href='mailto: rafaelias567@gmail.com'><li><BsAt size="40px"/></li></a>
+                <a href='https://github.com/RafaelOliveiraElias' target="_blank" rel="noreferrer"><li><BsGithub size="30px"/></li></a>
+                <a href='https://www.linkedin.com/in/rafael-oliveira-elias-865bb3154/' target="_blank" rel="noreferrer"><li><BsLinkedin size="30px" /></li></a>
               </ul>
             </nav>
           </div>

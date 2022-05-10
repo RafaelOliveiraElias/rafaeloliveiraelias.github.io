@@ -108,12 +108,12 @@ export default class Responsive extends Component {
           <div className="cardImgCont" onMouseOver={ () => this.setState({img1: true})} onMouseOut={ () => this.setState({img1: false})}>
             <div className={ !img1 ? 'buttons enabled' : 'buttons' } >
               <button
-                onClick={()=> window.open("https://github.com/RafaelOliveiraElias/RafaelOliveiraElias.github.io/tree/main/projetopkm", "_blank")}
+                onClick={()=> window.open("https://github.com/RafaelOliveiraElias/my-pokedex", "_blank")}
               >
                 <AiOutlineGithub size="60px" />
               </button>
               <button
-                onClick={()=> window.open("https://rafaeloliveiraelias.github.io/projetopkm/index.html", "_blank")}
+                onClick={()=> window.open("https://my-pokedex-beige.vercel.app/", "_blank")}
               >
                 <AiOutlineLink size="60px" />
               </button>
@@ -135,10 +135,14 @@ export default class Responsive extends Component {
           </div>
           <div className="cardImgCont" onMouseOver={ () => this.setState({img2: true})} onMouseOut={ () => this.setState({img2: false})}>
             <div className={ !img2 ? 'buttons enabled' : 'buttons' } >
-              <button>
+              <button
+                onClick={()=> window.open("https://github.com/RafaelOliveiraElias/trivia-react-app", "_blank")}
+              >
                 <AiOutlineGithub size="60px" />
               </button>
-              <button>
+              <button
+                onClick={()=> window.open("https://trivia-react-app.vercel.app/", "_blank")}
+              >
                 <AiOutlineLink size="60px" />
               </button>
             </div>
@@ -215,10 +219,14 @@ export default class Responsive extends Component {
           </div>
           <div className="cardImgCont" onMouseOver={ () => this.setState({img5: true})} onMouseOut={ () => this.setState({img5: false})}>
             <div className={ !img5 ? 'buttons enabled' : 'buttons' } >
-              <button>
+              <button
+                onClick={()=> window.open("https://github.com/RafaelOliveiraElias/what-to-cook-web-app", "_blank")}
+              >
                 <AiOutlineGithub size="60px" />
               </button>
-              <button>
+              <button
+                onClick={()=> window.open("https://what-to-cook-web-app.vercel.app/", "_blank")}
+              >
                 <AiOutlineLink size="60px" />
               </button>
             </div>

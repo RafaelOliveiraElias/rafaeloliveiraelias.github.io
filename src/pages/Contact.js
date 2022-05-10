@@ -6,6 +6,7 @@ import { BsGithub, BsAt, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 export default function Contact () {
   return(
   <footer>
+    <a id='contact' />
     <div className="waveContainer"> 
       <img src={wave} alt="wave"/>
     </div>
@@ -15,10 +16,10 @@ export default function Contact () {
         <h6>Telephone: +55 (31) 99488-3527 </h6>
       </div>
       <ul>
-        <li><a><BsAt size="40px"/></a></li>
-        <li><a><BsGithub size="40px"/></a></li>
-        <li><a><BsLinkedin size="40px" /></a></li>
-        <li><a><BsWhatsapp size="40px" /></a></li>
+        <li><a href='mailto: rafaelias567@gmail.com'><BsAt size="40px"/></a></li>
+        <li><a href='https://github.com/RafaelOliveiraElias' target="_blank" rel="noreferrer"><BsGithub size="40px"/></a></li>
+        <li><a href='https://www.linkedin.com/in/rafael-oliveira-elias-865bb3154/' target="_blank" rel="noreferrer"><BsLinkedin size="40px" /></a></li>
+        <li><a href='https://wa.me/15531994883527' target="_blank" rel="noreferrer"><BsWhatsapp size="40px" /></a></li>
       </ul>
       <h5>2022 © Rafael Oliveira Elias</h5>
       <h6>All Rights Reserved.</h6>

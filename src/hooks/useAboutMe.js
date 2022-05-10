@@ -20,10 +20,10 @@ export default function useAboutMe(language) {
           Com a ajuda da <a href="https://betrybe.com" target="_blank" rel="noreferrer">Trybe</a>, me tornei um desenvolvedor front-end e estou a caminho de me tornar full-stack. 
         </p>
         <p>
-          Sou formado em engenharia Metalúrgica e de Materiais. Fiz um intercâmbio para os Estados Unidos na University of Utah, em Salt Lake City. Tenho uma pós-graduação em Engenharia de Segurança e Saúde do Trabalho que me ensinou muito sobre gestão de pessoas, equipes e projetos.
+          Sou formado em Engenharia Metalúrgica e de Materiais. Fiz um intercâmbio para os Estados Unidos na University of Utah, em Salt Lake City. Além disso, Tenho pós-graduação em Engenharia de Segurança e Saúde do Trabalho que me ensinou muito sobre gestão de pessoas, equipes e projetos.
         </p>
         <p>
-          Me considero uma pessoa que aprende coisas de forma rápida, muito esforçado, extremamente empático e com muita intelência emocional.
+          Sou uma pessoa que aprende coisas de forma rápida, muito esforçado, extremamente empático e com muita inteligência emocional.
         </p>
       </div>
     )
@@ -37,7 +37,7 @@ export default function useAboutMe(language) {
           I graduated in Metallurgical and Materials Engineering with an international experience as an exchange student in the University of Utah, USA. I also made graduate studies in Occupational Health and Safety Engineering which I learned much about people management, teams and projects.
         </p>
         <p>
-          I consider myself as a person who learns things quickly, very hardworking, extremely empathetic and with a lot of emotional intelligence.
+          I am a person who learns things quickly, very hardworking, extremely empathetic and with a lot of emotional intelligence.
         </p>
       </div>
     )
