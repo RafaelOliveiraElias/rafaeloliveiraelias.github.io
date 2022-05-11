@@ -78,7 +78,7 @@ export default function Skills () {
           </div>
         </div>
       </div>
-      <div className={ turnedCount === 1 ? "learnedSkillsTitle turned" : "learnedSkillsTitle"}>
+      {/* <div className={ turnedCount === 1 ? "learnedSkillsTitle turned" : "learnedSkillsTitle"}>
         <h2>{language === 'pt' ? 'Habilidades e ferramentas futuras:' : 'Skills and Tools I will learn:'}</h2>
         <div className="learnedSkills">
           <div>
@@ -118,7 +118,7 @@ export default function Skills () {
             <DiPython size="40px"/>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }

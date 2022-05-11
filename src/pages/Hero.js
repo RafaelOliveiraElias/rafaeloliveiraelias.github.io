@@ -59,7 +59,7 @@ const Hero = () => {
             </div>
             <nav className='secNav'>
               <ul>
-              <a href='mailto: rafaelias567@gmail.com'><li><BsAt size="40px"/></li></a>
+                <a href='mailto: rafaelias567@gmail.com'><li><BsAt size="40px"/></li></a>
                 <a href='https://github.com/RafaelOliveiraElias' target="_blank" rel="noreferrer"><li><BsGithub size="30px"/></li></a>
                 <a href='https://www.linkedin.com/in/rafael-oliveira-elias-865bb3154/' target="_blank" rel="noreferrer"><li><BsLinkedin size="30px" /></li></a>
               </ul>

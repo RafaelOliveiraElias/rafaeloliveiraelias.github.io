@@ -15,7 +15,7 @@ export default function Projects () {
   return(
     <section className='projectsClass'>
       <h2>{language=== 'pt' ? 'Projetos' : 'Projects'}</h2>
-      <Responsive />
+      <Responsive language={ language } />
     </section>
   )
 }

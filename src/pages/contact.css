@@ -17,6 +17,7 @@
   align-items: center;
   color: white;
   font-size: 1.8em;
+  z-index: 30;
 }
 
 .contactsAt ul {
@@ -41,12 +42,18 @@ footer {
 }
 @media screen and
   (max-width: 600px){
-    .extraInfo {
+    .contactsAt .extraInfo {
       display: flex;
       flex-direction: column;
       width: 100vw;
       align-items: center;
-      justify-content: space-between;
-      height: 300px;
+      justify-content: space-around;
+      font-size: 0.8em;
+      text-align: center;
+      margin-bottom: 5px;
+      margin-top:-5px;
+    }
+    .extraInfo h6 {
+      margin-top: 10px;
     }
   }
