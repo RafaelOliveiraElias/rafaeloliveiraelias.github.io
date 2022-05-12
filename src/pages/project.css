@@ -132,7 +132,7 @@
   opacity: 0;
 }
 
-@media screen and  (max-width: 1300px) and (min-width: 600px) {
+@media screen and  (max-width: 1700px) and (min-width: 600px) {
   .projectsClass {
     height: 150vh;
     display: flex;
@@ -156,7 +156,7 @@
   
   .sliderClass {
     border-radius: 15px;
-    width: 75%;
+    width: 80%;
     padding: 5px;
     background-image: linear-gradient(
       90deg,
@@ -266,7 +266,7 @@
 }
 
 @media screen and
-(min-width: 1300px){
+(min-width: 1700px){
   .sliderClass {
     width: 50%;
   }
