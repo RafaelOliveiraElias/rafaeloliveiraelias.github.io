@@ -52,11 +52,21 @@ export default class Responsive extends Component {
           }
         },
         {
-          breakpoint: 1400,
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            initialSlide: 1,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 1,
+            infinite: true,
             dots: false
           }
         }
