@@ -144,7 +144,7 @@
       background-image: url('../imgs/blob2.svg') ;
       background-repeat: no-repeat;
       background-repeat: no-repeat;
-      background-size: 90%;
+      background-size: 75%;
   }
   
   .projectsClass h2 {
@@ -156,7 +156,7 @@
   
   .sliderClass {
     border-radius: 15px;
-    width: 80%;
+    max-width: 900px;
     padding: 5px;
     background-image: linear-gradient(
       90deg,
