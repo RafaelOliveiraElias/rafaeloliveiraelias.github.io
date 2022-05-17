@@ -42,7 +42,7 @@ export default class Responsive extends Component {
 
       responsive: [
         {
-          breakpoint: 1500,
+          breakpoint: 1700,
           settings: {
             slidesToShow: 5,
             slidesToScroll: 3,
@@ -52,10 +52,10 @@ export default class Responsive extends Component {
           }
         },
         {
-          breakpoint: 1300,
+          breakpoint: 1600,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToScroll: 2,
             initialSlide: 1,
             dots: true
           }
