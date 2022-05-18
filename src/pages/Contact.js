@@ -13,13 +13,13 @@ export default function Contact () {
     <div className="contactsAt">
       <div className="extraInfo">
         <h6>Email: rafaelias567@gmail.com</h6>
-        <h6>Telephone: +55 (31) 99488-3527 </h6>
+        <h6>Tel: +55 (31) 99488-3527 </h6>
       </div>
       <ul>
         <li><a href='mailto: rafaelias567@gmail.com'><BsAt size="40px"/></a></li>
         <li><a href='https://github.com/RafaelOliveiraElias' target="_blank" rel="noreferrer"><BsGithub size="40px"/></a></li>
         <li><a href='https://www.linkedin.com/in/rafael-oliveira-elias-865bb3154/' target="_blank" rel="noreferrer"><BsLinkedin size="40px" /></a></li>
-        <li><a href='https://wa.me/15531994883527' target="_blank" rel="noreferrer"><BsWhatsapp size="40px" /></a></li>
+        <li><a href="https://wa.me/+55994883527" target="_blank" rel="noreferrer"><BsWhatsapp size="40px" /></a></li>
       </ul>
       <h5>2022 © Rafael Oliveira Elias</h5>
       <h6>All Rights Reserved.</h6>

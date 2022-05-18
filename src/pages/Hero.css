@@ -347,7 +347,7 @@ opacity: 0;
       background-repeat: no-repeat;
       background-repeat: no-repeat;
       background-size: 55%;
-      background-position: 80%;
+      background-position: 70%;
       border-bottom: 2px solid #2cb67d;
       outline: 2px solid #7f5af0;
     }
@@ -437,7 +437,7 @@ opacity: 0;
     }
   
     .leftHeader h1 {
-      font-size: 9em;
+      font-size: 6em;
       width: 60%;
     }
   
@@ -453,7 +453,7 @@ opacity: 0;
       overflow: hidden;
       align-self: flex-end;
       height: 90vh;
-      margin-left: 5vw;
+      margin-left: 10vw;
     }
   
     .imgHeaderCont img {

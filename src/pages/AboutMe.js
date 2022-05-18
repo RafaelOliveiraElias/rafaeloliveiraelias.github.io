@@ -9,11 +9,11 @@ import AppContext from '../context/AppContext';
 export default function AboutMe () {
   const { ref: myRef, inView: elementVisible } = useInView({
     threshold: 1,
-    rootMargin: "0px 0px -100px 0px"
+    rootMargin: "0px 0px -50px 0px"
   });
   const { ref: myImgRef, inView: imgVisible } = useInView({
     threshold: 1,
-    rootMargin: "0px 0px -100px 0px"
+    rootMargin: "0px 0px -50px 0px"
   });
   const [turnedCount, setCount] = useState(0);
   const [imgCount, setImgCount] = useState(0);
