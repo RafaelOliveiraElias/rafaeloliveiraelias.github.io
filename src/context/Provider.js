@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import AppContext from './AppContext';
 
 function Provider({ children }) {
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('pt');
   const contextValue = {
     language, setLanguage
   };
