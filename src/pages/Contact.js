@@ -19,7 +19,7 @@ export default function Contact () {
         <li><a href='mailto: rafaelias567@gmail.com'><BsAt size="40px"/></a></li>
         <li><a href='https://github.com/RafaelOliveiraElias' target="_blank" rel="noreferrer"><BsGithub size="40px"/></a></li>
         <li><a href='https://www.linkedin.com/in/rafael-oliveira-elias-865bb3154/' target="_blank" rel="noreferrer"><BsLinkedin size="40px" /></a></li>
-        <li><a href="https://wa.me/+55994883527" target="_blank" rel="noreferrer"><BsWhatsapp size="40px" /></a></li>
+        <li><a href="https://wa.me/5531994883527" target="_blank" rel="noreferrer"><BsWhatsapp size="40px" /></a></li>
       </ul>
       <h5>2022 © Rafael Oliveira Elias</h5>
       <h6>All Rights Reserved.</h6>
